@@ -1,5 +1,7 @@
 #tcl script that will create four nodes,initilize tcp in packets and connect nodes links in duplex format.
 #the finish procedure is function to set the timing for the trace file.
+#A GUI interface will serve as container for the nodes will be created using the TCL scripting.
+TCP  packet are meant to flow between the nodes and performance is recorded in a file.
 
 #Create a simulator object
 set ns [new Simulator]
